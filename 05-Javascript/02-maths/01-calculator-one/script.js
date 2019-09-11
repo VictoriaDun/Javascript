@@ -12,7 +12,12 @@
 (() => {
     // to get the value of an input: document.getElementById("element-id").value
 
-    document.getElementById("addition").addEventListener("click", () => {
+    document.getElementById("addition").addEventListener("click", (displayvalue) => {
+        let operandeun = document.getElementById('op-one').value
+        let operandedeu = document.getElementById('op-two').value
+        let displayvalue
+        alert displayvalue ()
+
         // perform an addition
     });
 

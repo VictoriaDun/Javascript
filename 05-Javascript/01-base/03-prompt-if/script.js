@@ -9,6 +9,8 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(() => {
+(() => {let reponse = prompt ('veux-tu du gateau\?')
+if (reponse == 'oui') {alert ('Yeeey\!');}
+else { alert ('du gateau\,ca ne se refuse pas\!');}
     // your code here
 })();

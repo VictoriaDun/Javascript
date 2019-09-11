@@ -10,5 +10,10 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+    for (let age = prompt ('what is your age\?')
+          let sex = prompt ('what is your sex\?')
+          let city = prompt ('in wich city do you live\?')
+ confirm ('Is this correct '+ age +','+ sex + ',' + city+'\?')
+
+
 })();
